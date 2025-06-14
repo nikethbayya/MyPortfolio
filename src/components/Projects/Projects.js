@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import youtube from "../../Assets/Projects/p1.jpg";
 import vacaybuddy from "../../Assets/Projects/p2.jpg";
 import news from "../../Assets/Projects/p6.png";
+import car from "../../Assets/Projects/p7.png";
 import ipl from "../../Assets/Projects/p4.webp";
 import resume from "../../Assets/Projects/p3.png"
 import employee from "../../Assets/Projects/p5.webp";
@@ -21,6 +22,16 @@ function Projects() {
           Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={car}
+              isBlog={false}
+              title="Car Visual Odometry"
+              description="Developed a deep-learning pipeline to extract precise racelines from driver-mounted video by combining convolutional and recurrent neural networks (DeepVO) for frame-by-frame pose estimation. Leveraged pre-trained FlowNet for optical-flow feature integration and trained end-to-end on KITTI-style racing footage to reconstruct 3D vehicle trajectories, enabling robust path estimation under real-world conditions."
+              ghLink="https://github.com/nikethbayya/Car_Visual_Odometry"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={youtube}
