@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/check.png"; // Update with actual image path
+import homeLogo from "../../Assets/me.JPG"; // Update with actual image path
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -77,8 +77,8 @@ function Home() {
                 alt="Niketh's profile"
                 className="img-fluid"
                 style={{
-                  maxHeight: "300px",
-                  borderRadius: "20%",
+                  maxHeight: "420px",
+                  borderRadius: "10%",
                   marginTop: "0px",
                 }}
               />
