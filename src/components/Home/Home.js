@@ -70,6 +70,8 @@ function Home() {
               style={{
                 paddingBottom: 20,
                 marginTop: "20px",
+                position: "relative",
+                zIndex: 10,
               }}
             >
               <img
@@ -77,9 +79,11 @@ function Home() {
                 alt="Niketh's profile"
                 className="img-fluid"
                 style={{
-                  maxHeight: "420px",
+                  maxHeight: "410px",
                   borderRadius: "10%",
                   marginTop: "0px",
+                  position: "relative",
+                  zIndex: 10,
                 }}
               />
             </Col>
